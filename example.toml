@@ -1,0 +1,32 @@
+[Service]
+  Port = "8000"
+  Environment = "development"
+  RepoURL = "https://git.xenonstack.com/api/v4/projects/885/repository/archive.zip?sha=develop"
+  RepoPrivateKey = "xxxx"
+  Workspace="https://continuous-security.secops.neuralcompany.team/api/workspace"
+[Database]
+  name = "csecurity"
+  host = "172.16.200.250"
+  port = "31878"
+  user = "csecurity"
+  pass = "Xenonpostgres"
+  ideal = "10"
+
+[NatsServer]
+  url = "172.16.200.250:32524"
+  token = "xxxx"
+  username = "user"
+  password = "xxxx"
+[Mail]
+  Host = ""
+  Port = ""
+  From = ""
+  User = ""
+  Pass = ""
+[JWT]
+  PrivateKey = ""
+
+[Hubspot]
+  WebsiteID = ""
+  PortalID = ""
+  GitID = ""

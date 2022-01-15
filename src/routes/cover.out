@@ -1,0 +1,16 @@
+mode: set
+git.xenonstack.com/util/continuous-security-backend/src/routes/jwt.go:12.44,43.2 3 1
+git.xenonstack.com/util/continuous-security-backend/src/routes/jwt.go:46.61,50.2 1 0
+git.xenonstack.com/util/continuous-security-backend/src/routes/v1routes.go:16.35,21.53 3 0
+git.xenonstack.com/util/continuous-security-backend/src/routes/v1routes.go:26.2,46.2 14 0
+git.xenonstack.com/util/continuous-security-backend/src/routes/v1routes.go:21.53,25.3 2 0
+git.xenonstack.com/util/continuous-security-backend/src/routes/v1routes.go:46.2,53.3 3 0
+git.xenonstack.com/util/continuous-security-backend/src/routes/v1routes.go:56.36,61.2 2 0
+git.xenonstack.com/util/continuous-security-backend/src/routes/v1routes.go:63.46,66.2 2 0
+git.xenonstack.com/util/continuous-security-backend/src/routes/v1routes.go:69.31,71.2 1 0
+git.xenonstack.com/util/continuous-security-backend/src/routes/v1routes.go:74.30,75.27 1 0
+git.xenonstack.com/util/continuous-security-backend/src/routes/v1routes.go:75.27,82.3 3 0
+git.xenonstack.com/util/continuous-security-backend/src/routes/v1routes.go:82.8,85.3 1 0
+git.xenonstack.com/util/continuous-security-backend/src/routes/v1routes.go:89.33,91.28 2 0
+git.xenonstack.com/util/continuous-security-backend/src/routes/v1routes.go:96.2,96.10 1 0
+git.xenonstack.com/util/continuous-security-backend/src/routes/v1routes.go:91.28,95.3 3 0

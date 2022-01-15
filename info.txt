@@ -1,0 +1,27 @@
+2022/01/12 13:54:44 main.go:69: Logging to a file in Go!
+2022/01/12 13:54:44 download.go:21: https://git.xenonstack.com/api/v4/projects/885/repository/archive.zip?sha=develop
+2022/01/12 13:54:45 download.go:30: 401
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /                         --> main.main.func1 (2 handlers)
+[GIN-debug] GET    /healthz                  --> git.xenonstack.com/util/continuous-security-backend/src/api.HealthCheck (2 handlers)
+[GIN-debug] GET    /reload                   --> git.xenonstack.com/util/continuous-security-backend/src/routes.reloadScripts (2 handlers)
+[GIN-debug] GET    /end                      --> git.xenonstack.com/util/continuous-security-backend/src/routes.readEnv (3 handlers)
+[GIN-debug] GET    /logs                     --> git.xenonstack.com/util/continuous-security-backend/src/routes.readLogs (3 handlers)
+[GIN-debug] GET    /openapi.yaml             --> github.com/gin-gonic/gin.(*RouterGroup).StaticFile.func1 (2 handlers)
+[GIN-debug] HEAD   /openapi.yaml             --> github.com/gin-gonic/gin.(*RouterGroup).StaticFile.func1 (2 handlers)
+[GIN-debug] GET    /icons/*filepath          --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /icons/*filepath          --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] POST   /v1/notification          --> git.xenonstack.com/util/continuous-security-backend/src/api.Notification (2 handlers)
+[GIN-debug] GET    /v1/result/:id            --> git.xenonstack.com/util/continuous-security-backend/src/api.ScanResult (2 handlers)
+[GIN-debug] GET    /v1/git-result/:id        --> git.xenonstack.com/util/continuous-security-backend/src/api.GitScanResult (2 handlers)
+[GIN-debug] POST   /v1/scan                  --> git.xenonstack.com/util/continuous-security-backend/src/api.Scan (2 handlers)
+[GIN-debug] POST   /v1/git-scan              --> git.xenonstack.com/util/continuous-security-backend/src/api.GitScan (2 handlers)
+[GIN-debug] PUT    /v1/:id/workspace/:emails --> git.xenonstack.com/util/continuous-security-backend/src/api.WorkspaceNameUpdate (3 handlers)
+[GIN-debug] GET    /v1/integrations          --> git.xenonstack.com/util/continuous-security-backend/src/api.Integration (3 handlers)
+[GIN-debug] GET    /v1/integrations/:id      --> git.xenonstack.com/util/continuous-security-backend/src/api.IntegrationbyID (3 handlers)
+[GIN-debug] GET    /v1/git-repos             --> git.xenonstack.com/util/continuous-security-backend/src/api.GitRepos (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8000
+2022/01/12 13:54:45 connect.go:18: nats connected successfully

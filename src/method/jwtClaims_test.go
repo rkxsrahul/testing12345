@@ -1,0 +1,14 @@
+package method
+
+import (
+	"testing"
+
+	"git.xenonstack.com/util/continuous-security-backend/config"
+)
+
+func TestExtractClaims(t *testing.T) {
+	config.ConfigurationWithToml("../../example.toml")
+	ExtractClaims("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJhaHVsQHhlbm9uc3RhY2suY29tIiwiZXhwIjoxNjQxODA1MDUwLCJpZCI6MjU0LCJuYW1lIjoiUmFodWwgS3VtYXIiLCJvcmlnX2lhdCI6MTY0MTgwMzI1MCwic3lzX3JvbGUiOiJ1c2VyIn0.qF2PFWjjsKUmvSxgT0LreKau-eFWHsOiha25zfaB6og")
+	ExtractClaims("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJhaHVsQHhlbm9uc3RhY2suY29tIiwiZXhwIjoxNjQxODA1MDUwLCJpZCI6MjU0LCJuYW1lIjoiUmFodWwgS3VtYXIiLCJvcmlnX2lhdCI6MTY0MTgwMzI1MCwic3lzX3JvbGUiOiJ1c2VyIn0.qF2PFWjjsKUmvSxgT0LreKau-eFWHsOiha25z")
+
+}
